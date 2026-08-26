@@ -63,7 +63,6 @@ fun LemonadeApp() {
                         fontWeight = FontWeight.Bold
                     )
                 },
-                // Couleur jaune exacte de la barre supérieure (TopAppBar)
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = Color(0xFFF9E44C)
                 )
@@ -130,7 +129,6 @@ fun LemonTextAndImage(
         Button(
             onClick = onImageClick,
             shape = RoundedCornerShape(40.dp),
-            // Couleur vert menthe / vert clair exacte du fond du bouton
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color(0xFFC3ECD2)
             )
